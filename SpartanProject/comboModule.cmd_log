@@ -1,0 +1,526 @@
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 
+xst -intstyle ise -ifn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.xst" -ofn "C:/Users/Personal/Xilinx Code/SpartanProject/comboModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucffile.ucf -p xc3s100e-cp132-5 "comboModule.ngc" comboModule.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o comboModule_map.ncd comboModule.ngd comboModule.pcf 
+par -w -intstyle ise -ol high -t 1 comboModule_map.ncd comboModule.ncd comboModule.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comboModule.twx comboModule.ncd -o comboModule.twr comboModule.pcf -ucf ucffile.ucf 
+bitgen -intstyle ise -f comboModule.ut comboModule.ncd 

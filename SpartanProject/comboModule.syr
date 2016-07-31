@@ -1,0 +1,797 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: comboModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "comboModule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "comboModule"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : comboModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "motor.v" in library work
+Compiling verilog file "DriverModuler.v" in library work
+Module <motorDriver> compiled
+Compiling verilog file "SevenSegment.v" in library work
+Module <DriverModuler> compiled
+Compiling verilog file "keyboardScanner.v" in library work
+Module <SevenSegment> compiled
+Compiling verilog file "ElevatorMind.v" in library work
+Module <keyboardScanner> compiled
+Compiling verilog file "driverModule.v" in library work
+Module <Queue> compiled
+Compiling verilog file "counter.v" in library work
+Module <driverModuleCtrl> compiled
+Compiling verilog file "comboModule.v" in library work
+Module <counter> compiled
+Module <comboModule> compiled
+No errors in compilation
+Analysis of file <"comboModule.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <comboModule> in library <work>.
+
+Analyzing hierarchy for module <keyboardScanner> in library <work>.
+
+Analyzing hierarchy for module <counter> in library <work>.
+
+Analyzing hierarchy for module <SevenSegment> in library <work>.
+
+Analyzing hierarchy for module <driverModuleCtrl> in library <work>.
+
+Analyzing hierarchy for module <Queue> in library <work>.
+
+Analyzing hierarchy for module <DriverModuler> in library <work>.
+
+Analyzing hierarchy for module <motorDriver> in library <work> with parameters.
+	S0 = "00"
+	S1 = "01"
+	S2 = "10"
+	S3 = "11"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <comboModule>.
+Module <comboModule> is correct for synthesis.
+ 
+Analyzing module <keyboardScanner> in library <work>.
+Module <keyboardScanner> is correct for synthesis.
+ 
+Analyzing module <counter> in library <work>.
+Module <counter> is correct for synthesis.
+ 
+Analyzing module <SevenSegment> in library <work>.
+Module <SevenSegment> is correct for synthesis.
+ 
+Analyzing module <driverModuleCtrl> in library <work>.
+Module <driverModuleCtrl> is correct for synthesis.
+ 
+Analyzing module <DriverModuler> in library <work>.
+Module <DriverModuler> is correct for synthesis.
+ 
+Analyzing module <motorDriver> in library <work>.
+	S0 = 2'b00
+	S1 = 2'b01
+	S2 = 2'b10
+	S3 = 2'b11
+Module <motorDriver> is correct for synthesis.
+ 
+Analyzing module <Queue> in library <work>.
+Module <Queue> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <CB> in unit <SevenSegment> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <keyboardScanner>.
+    Related source file is "keyboardScanner.v".
+    Using one-hot encoding for signal <state>.
+    Found 4-bit register for signal <keyCode>.
+    Found 4-bit register for signal <row>.
+    Found 4-bit register for signal <nextState>.
+    Found 4-bit register for signal <state>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <keyboardScanner> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is "counter.v".
+    Found 1-bit register for signal <finished>.
+    Found 28-bit comparator equal for signal <finished$cmp_eq0000> created at line 19.
+    Found 28-bit register for signal <nextState>.
+    Found 28-bit adder for signal <nextState$addsub0000> created at line 31.
+    Found 28-bit register for signal <state>.
+    Summary:
+	inferred  57 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <SevenSegment>.
+    Related source file is "SevenSegment.v".
+    Register <CD> equivalent to <CA> has been removed
+    Found 1-bit register for signal <CA>.
+    Found 1-bit register for signal <CC>.
+    Found 1-bit register for signal <CE>.
+    Found 1-bit register for signal <CF>.
+    Found 1-bit register for signal <CG>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <SevenSegment> synthesized.
+
+
+Synthesizing Unit <Queue>.
+    Related source file is "ElevatorMind.v".
+    Found 1-bit register for signal <go>.
+    Found 4-bit register for signal <currSt>.
+    Found 4-bit comparator equal for signal <go$cmp_eq0004> created at line 52.
+    Found 4-bit comparator equal for signal <go$cmp_eq0005> created at line 59.
+    Found 4-bit comparator equal for signal <go$cmp_eq0006> created at line 65.
+    Found 4-bit comparator equal for signal <go$cmp_eq0007> created at line 70.
+    Found 4-bit register for signal <queueItem1>.
+    Found 4-bit comparator not equal for signal <queueItem1$cmp_ne0000> created at line 21.
+    Found 4-bit comparator not equal for signal <queueItem1$cmp_ne0001> created at line 21.
+    Found 4-bit comparator not equal for signal <queueItem1$cmp_ne0002> created at line 21.
+    Found 4-bit comparator not equal for signal <queueItem1$cmp_ne0003> created at line 21.
+    Found 4-bit register for signal <queueItem2>.
+    Found 4-bit register for signal <queueItem3>.
+    Found 4-bit register for signal <queueItem4>.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <Queue> synthesized.
+
+
+Synthesizing Unit <motorDriver>.
+    Related source file is "motor.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 47 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <motorDriver> synthesized.
+
+
+Synthesizing Unit <DriverModuler>.
+    Related source file is "DriverModuler.v".
+    Found 32-bit up counter for signal <counter>.
+    Found 33-bit comparator equal for signal <counter$cmp_eq0000> created at line 34.
+    Found 1-bit register for signal <countReached>.
+    Found 24-bit register for signal <targetCount>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <DriverModuler> synthesized.
+
+
+Synthesizing Unit <driverModuleCtrl>.
+    Related source file is "driverModule.v".
+    Found 4-bit register for signal <nes>.
+    Found 1-bit register for signal <dir>.
+    Found 4-bit comparator lessequal for signal <dir$cmp_le0000> created at line 27.
+    Found 4-bit comparator lessequal for signal <dir$cmp_le0001> created at line 18.
+    Found 4-bit comparator greater for signal <nes$cmp_gt0000> created at line 27.
+    Found 4-bit comparator greater for signal <nes$cmp_gt0001> created at line 18.
+    Found 1-bit register for signal <on>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+Unit <driverModuleCtrl> synthesized.
+
+
+Synthesizing Unit <comboModule>.
+    Related source file is "comboModule.v".
+Unit <comboModule> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 28-bit adder                                          : 2
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 26
+ 1-bit register                                        : 11
+ 24-bit register                                       : 1
+ 28-bit register                                       : 4
+ 4-bit register                                        : 10
+# Comparators                                          : 15
+ 28-bit comparator equal                               : 2
+ 33-bit comparator equal                               : 1
+ 4-bit comparator equal                                : 4
+ 4-bit comparator greater                              : 2
+ 4-bit comparator lessequal                            : 2
+ 4-bit comparator not equal                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <theArm/dm/motor/state/FSM> on signal <state[1:2]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+INFO:Xst:2261 - The FF/Latch <nextState_1> in Unit <scanner> is equivalent to the following FF/Latch, which will be removed : <row_0> 
+INFO:Xst:2261 - The FF/Latch <nextState_2> in Unit <scanner> is equivalent to the following FF/Latch, which will be removed : <row_1> 
+INFO:Xst:2261 - The FF/Latch <nextState_3> in Unit <scanner> is equivalent to the following FF/Latch, which will be removed : <row_2> 
+INFO:Xst:2261 - The FF/Latch <nextState_0> in Unit <scanner> is equivalent to the following FF/Latch, which will be removed : <row_3> 
+INFO:Xst:2261 - The FF/Latch <targetCount_0> in Unit <dm> is equivalent to the following 10 FFs/Latches, which will be removed : <targetCount_1> <targetCount_2> <targetCount_3> <targetCount_5> <targetCount_10> <targetCount_13> <targetCount_15> <targetCount_20> <targetCount_21> <targetCount_23> 
+INFO:Xst:2261 - The FF/Latch <targetCount_8> in Unit <dm> is equivalent to the following 5 FFs/Latches, which will be removed : <targetCount_11> <targetCount_14> <targetCount_18> <targetCount_19> <targetCount_22> 
+INFO:Xst:2261 - The FF/Latch <targetCount_4> in Unit <dm> is equivalent to the following 4 FFs/Latches, which will be removed : <targetCount_7> <targetCount_12> <targetCount_16> <targetCount_17> 
+INFO:Xst:2261 - The FF/Latch <targetCount_6> in Unit <dm> is equivalent to the following FF/Latch, which will be removed : <targetCount_9> 
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_4 hinder the constant cleaning in the block dm.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_8 hinder the constant cleaning in the block dm.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <targetCount_0> has a constant value of 0 in block <dm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <targetCount_6> has a constant value of 1 in block <dm>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 28-bit adder                                          : 2
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 187
+ Flip-Flops                                            : 187
+# Comparators                                          : 15
+ 28-bit comparator equal                               : 2
+ 33-bit comparator equal                               : 1
+ 4-bit comparator equal                                : 4
+ 4-bit comparator greater                              : 2
+ 4-bit comparator lessequal                            : 2
+ 4-bit comparator not equal                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_22 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_19 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_18 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_17 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_16 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_14 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_12 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_11 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_8 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_7 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch targetCount_4 hinder the constant cleaning in the block DriverModuler.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <targetCount_0> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_1> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_2> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_3> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_5> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_6> has a constant value of 1 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_9> has a constant value of 1 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_10> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_13> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_15> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_20> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_21> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <targetCount_23> has a constant value of 0 in block <DriverModuler>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <nextState_1> in Unit <keyboardScanner> is equivalent to the following FF/Latch, which will be removed : <row_0> 
+INFO:Xst:2261 - The FF/Latch <nextState_2> in Unit <keyboardScanner> is equivalent to the following FF/Latch, which will be removed : <row_1> 
+INFO:Xst:2261 - The FF/Latch <nextState_3> in Unit <keyboardScanner> is equivalent to the following FF/Latch, which will be removed : <row_2> 
+INFO:Xst:2261 - The FF/Latch <nextState_0> in Unit <keyboardScanner> is equivalent to the following FF/Latch, which will be removed : <row_3> 
+INFO:Xst:2261 - The FF/Latch <targetCount_4> in Unit <DriverModuler> is equivalent to the following 4 FFs/Latches, which will be removed : <targetCount_7> <targetCount_12> <targetCount_16> <targetCount_17> 
+INFO:Xst:2261 - The FF/Latch <targetCount_8> in Unit <DriverModuler> is equivalent to the following 5 FFs/Latches, which will be removed : <targetCount_11> <targetCount_14> <targetCount_18> <targetCount_19> <targetCount_22> 
+
+Optimizing unit <comboModule> ...
+
+Optimizing unit <keyboardScanner> ...
+
+Optimizing unit <SevenSegment> ...
+
+Optimizing unit <Queue> ...
+
+Optimizing unit <DriverModuler> ...
+
+Optimizing unit <driverModuleCtrl> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block comboModule, actual ratio is 20.
+
+Final Macro Processing ...
+
+Processing Unit <comboModule> :
+	Found 2-bit shift register for signal <scanner/nextState_3>.
+	Found 2-bit shift register for signal <scanner/nextState_2>.
+	Found 2-bit shift register for signal <scanner/nextState_1>.
+	Found 2-bit shift register for signal <scanner/nextState_0>.
+Unit <comboModule> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 187
+ Flip-Flops                                            : 187
+# Shift Registers                                      : 4
+ 2-bit shift register                                  : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : comboModule.ngr
+Top Level Output File Name         : comboModule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 562
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 85
+#      LUT2                        : 80
+#      LUT2_D                      : 1
+#      LUT2_L                      : 1
+#      LUT3                        : 25
+#      LUT3_D                      : 4
+#      LUT3_L                      : 6
+#      LUT4                        : 109
+#      LUT4_D                      : 16
+#      LUT4_L                      : 15
+#      MUXCY                       : 111
+#      MUXF5                       : 11
+#      VCC                         : 1
+#      XORCY                       : 88
+# FlipFlops/Latches                : 191
+#      FD                          : 71
+#      FD_1                        : 3
+#      FDC                         : 2
+#      FDE                         : 63
+#      FDE_1                       : 1
+#      FDR                         : 36
+#      FDRS                        : 1
+#      FDS                         : 1
+#      FDS_1                       : 13
+# Shift Registers                  : 4
+#      SRL16                       : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      IBUF                        : 5
+#      OBUF                        : 27
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      203  out of    960    21%  
+ Number of Slice Flip Flops:            191  out of   1920     9%  
+ Number of 4 input LUTs:                354  out of   1920    18%  
+    Number used as logic:               350
+    Number used as Shift registers:       4
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of     83    39%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)               | Load  |
+-----------------------------------+-------------------------------------+-------+
+clk                                | BUFGP                               | 171   |
+sClock/finished                    | NONE(theBrain/currSt_3)             | 10    |
+theArm/dm/countReached             | NONE(theArm/dm/motor/state_FSM_FFd2)| 2     |
+msClock/finished                   | NONE(scanner/keyCode_3)             | 12    |
+-----------------------------------+-------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------+-------------------------------------+-------+
+Control Signal                                           | Buffer(FF name)                     | Load  |
+---------------------------------------------------------+-------------------------------------+-------+
+theArm/dm/motor_not0000(theArm/dm/motor_not00001_INV_0:O)| NONE(theArm/dm/motor/state_FSM_FFd1)| 2     |
+---------------------------------------------------------+-------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.738ns (Maximum Frequency: 129.225MHz)
+   Minimum input arrival time before clock: 5.774ns
+   Maximum output required time after clock: 5.103ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.738ns (frequency: 129.225MHz)
+  Total number of paths / destination ports: 5987 / 214
+-------------------------------------------------------------------------
+Delay:               7.738ns (Levels of Logic = 6)
+  Source:            theBrain/queueItem2_0 (FF)
+  Destination:       theBrain/queueItem3_1 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: theBrain/queueItem2_0 to theBrain/queueItem3_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS_1:C->Q            6   0.514   0.721  theBrain/queueItem2_0 (theBrain/queueItem2_0)
+     LUT4_D:I0->O          7   0.612   0.754  theBrain/queueItem1_cmp_eq00041 (theBrain/queueItem1_cmp_eq0004)
+     LUT2:I0->O            1   0.612   0.360  theBrain/queueItem3_mux0000<1>5_SW0_SW0 (N85)
+     LUT4_L:I3->LO         1   0.612   0.103  theBrain/queueItem3_mux0000<1>5_SW0 (N29)
+     LUT4:I3->O            1   0.612   0.360  theBrain/queueItem3_mux0000<1>221_SW1 (N63)
+     LUT4_D:I3->LO         1   0.612   0.103  theBrain/queueItem3_mux0000<1>5 (N138)
+     LUT4:I3->O            1   0.612   0.357  theBrain/queueItem3_mux0000<1>_SW0 (N31)
+     FDS_1:S                   0.795          theBrain/queueItem3_1
+    ----------------------------------------
+    Total                      7.738ns (4.981ns logic, 2.757ns route)
+                                       (64.4% logic, 35.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sClock/finished'
+  Clock period: 7.063ns (frequency: 141.580MHz)
+  Total number of paths / destination ports: 193 / 15
+-------------------------------------------------------------------------
+Delay:               7.063ns (Levels of Logic = 6)
+  Source:            theBrain/currSt_1 (FF)
+  Destination:       theArm/nes_3 (FF)
+  Source Clock:      sClock/finished rising
+  Destination Clock: sClock/finished rising
+
+  Data Path: theBrain/currSt_1 to theArm/nes_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              26   0.514   1.101  theBrain/currSt_1 (theBrain/currSt_1)
+     LUT4:I2->O            2   0.612   0.532  theArm/nes_cmp_gt00012 (theArm/nes_cmp_gt00011)
+     LUT3_D:I0->LO         1   0.612   0.103  theArm/nes_cmp_gt00011 (N136)
+     LUT4:I3->O            1   0.612   0.387  theArm/nes_mux0000<0>11_SW0 (N44)
+     LUT3:I2->O            2   0.612   0.383  theArm/nes_mux0000<3>18_SW0 (N74)
+     LUT4_L:I3->LO         1   0.612   0.103  theArm/nes_mux0000<3>18 (theArm/nes_mux0000<3>18)
+     LUT4:I3->O            1   0.612   0.000  theArm/nes_mux0000<3>62 (theArm/nes_mux0000<3>)
+     FDE:D                     0.268          theArm/nes_3
+    ----------------------------------------
+    Total                      7.063ns (4.454ns logic, 2.609ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'theArm/dm/countReached'
+  Clock period: 1.914ns (frequency: 522.370MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.914ns (Levels of Logic = 1)
+  Source:            theArm/dm/motor/state_FSM_FFd1 (FF)
+  Destination:       theArm/dm/motor/state_FSM_FFd2 (FF)
+  Source Clock:      theArm/dm/countReached rising
+  Destination Clock: theArm/dm/countReached rising
+
+  Data Path: theArm/dm/motor/state_FSM_FFd1 to theArm/dm/motor/state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.514   0.520  theArm/dm/motor/state_FSM_FFd1 (theArm/dm/motor/state_FSM_FFd1)
+     LUT2:I1->O            1   0.612   0.000  theArm/dm/motor/state_FSM_FFd2-In1 (theArm/dm/motor/state_FSM_FFd2-In)
+     FDC:D                     0.268          theArm/dm/motor/state_FSM_FFd2
+    ----------------------------------------
+    Total                      1.914ns (1.394ns logic, 0.520ns route)
+                                       (72.8% logic, 27.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'msClock/finished'
+  Clock period: 3.492ns (frequency: 286.369MHz)
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Delay:               3.492ns (Levels of Logic = 0)
+  Source:            scanner/Mshreg_nextState_0 (FF)
+  Destination:       scanner/nextState_0 (FF)
+  Source Clock:      msClock/finished rising
+  Destination Clock: msClock/finished rising
+
+  Data Path: scanner/Mshreg_nextState_0 to scanner/nextState_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.224   0.000  scanner/Mshreg_nextState_0 (scanner/Mshreg_nextState_0)
+     FD:D                      0.268          scanner/nextState_0
+    ----------------------------------------
+    Total                      3.492ns (3.492ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 15 / 15
+-------------------------------------------------------------------------
+Offset:              5.774ns (Levels of Logic = 5)
+  Source:            one (PAD)
+  Destination:       theBrain/queueItem1_2 (FF)
+  Destination Clock: clk falling
+
+  Data Path: one to theBrain/queueItem1_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.106   0.632  one_IBUF (one_IBUF)
+     LUT3:I2->O            1   0.612   0.000  theBrain/queueItem3_mux0000<1>221_SW0_G (N118)
+     MUXF5:I1->O           1   0.278   0.387  theBrain/queueItem3_mux0000<1>221_SW0 (N61)
+     LUT3_D:I2->O          2   0.612   0.383  theBrain/queueItem1_mux0000<1>41 (theBrain/N201)
+     LUT4:I3->O            1   0.612   0.357  theBrain/queueItem1_mux0000<2>_SW0 (N25)
+     FDS_1:S                   0.795          theBrain/queueItem1_2
+    ----------------------------------------
+    Total                      5.774ns (4.015ns logic, 1.759ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'msClock/finished'
+  Total number of paths / destination ports: 16 / 4
+-------------------------------------------------------------------------
+Offset:              3.521ns (Levels of Logic = 2)
+  Source:            col<1> (PAD)
+  Destination:       scanner/keyCode_3 (FF)
+  Destination Clock: msClock/finished rising
+
+  Data Path: col<1> to scanner/keyCode_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.509  col_1_IBUF (col_1_IBUF)
+     LUT4:I0->O            4   0.612   0.499  scanner/keyCode_and00001 (scanner/keyCode_and0000)
+     FDR:R                     0.795          scanner/keyCode_3
+    ----------------------------------------
+    Total                      3.521ns (2.513ns logic, 1.008ns route)
+                                       (71.4% logic, 28.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.433ns (Levels of Logic = 1)
+  Source:            theBrain/queueItem1_3 (FF)
+  Destination:       des<3> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: theBrain/queueItem1_3 to des<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS_1:C->Q           10   0.514   0.750  theBrain/queueItem1_3 (theBrain/queueItem1_3)
+     OBUF:I->O                 3.169          des_3_OBUF (des<3>)
+    ----------------------------------------
+    Total                      4.433ns (3.683ns logic, 0.750ns route)
+                                       (83.1% logic, 16.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'msClock/finished'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.642ns (Levels of Logic = 1)
+  Source:            scanner/keyCode_3 (FF)
+  Destination:       kCode<3> (PAD)
+  Source Clock:      msClock/finished rising
+
+  Data Path: scanner/keyCode_3 to kCode<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             21   0.514   0.959  scanner/keyCode_3 (scanner/keyCode_3)
+     OBUF:I->O                 3.169          kCode_3_OBUF (kCode<3>)
+    ----------------------------------------
+    Total                      4.642ns (3.683ns logic, 0.959ns route)
+                                       (79.3% logic, 20.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'theArm/dm/countReached'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              5.103ns (Levels of Logic = 2)
+  Source:            theArm/dm/motor/state_FSM_FFd2 (FF)
+  Destination:       out<3> (PAD)
+  Source Clock:      theArm/dm/countReached rising
+
+  Data Path: theArm/dm/motor/state_FSM_FFd2 to out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.514   0.451  theArm/dm/motor/state_FSM_FFd2 (theArm/dm/motor/state_FSM_FFd2)
+     INV:I->O              1   0.612   0.357  theArm/dm/motor/state_FSM_Out01_INV_0 (out_3_OBUF)
+     OBUF:I->O                 3.169          out_3_OBUF (out<3>)
+    ----------------------------------------
+    Total                      5.103ns (4.295ns logic, 0.808ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.78 secs
+ 
+--> 
+
+Total memory usage is 302216 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
+

@@ -1,0 +1,3 @@
+verilog work "motor.v"
+verilog work "DriverModuler.v"
+verilog work "driverModule.v"

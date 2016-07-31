@@ -1,0 +1,8 @@
+verilog work "motor.v"
+verilog work "DriverModuler.v"
+verilog work "SevenSegment.v"
+verilog work "keyboardScanner.v"
+verilog work "ElevatorMind.v"
+verilog work "driverModule.v"
+verilog work "counter.v"
+verilog work "comboModule.v"

@@ -1,0 +1,42 @@
+//keyboard scanner module inputs
+NET "col[0]" LOC = "B2";
+NET "col[1]" LOC = "A3";
+NET "col[2]" LOC = "J3";
+NET "col[3]" LOC = "B5";
+//keyboard scanner module outputs
+NET "row[0]" LOC = "C6";
+NET "row[1]" LOC = "B6";
+NET "row[2]" LOC = "C5";
+NET "row[3]" LOC = "B7";
+//motor pins
+NET "out[0]" LOC = C9;
+NET "out[1]" LOC = A10;
+NET "out[2]" LOC = B9;
+NET "out[3]" LOC = A9;
+//50MHz clk
+NET "clk" LOC = "B8";
+//sevensegment module cathode outputs
+NET "CA" LOC = "L14";
+NET "CB" LOC = "H12";
+NET "CC" LOC = "N14";
+NET "CD" LOC = "N11";
+NET "CE" LOC = "P12";
+NET "CF" LOC = "L13";
+NET "CG" LOC = "M12";
+////sevensegment module anode outputs
+NET "AN0" LOC = "K14";
+NET "AN1" LOC = "M13";
+NET "AN2" LOC = "J12";
+NET "AN3" LOC = "F12";
+//leds on the basys for debuging purposes
+NET "kCode[3]" LOC = "P6";
+NET "kCode[2]" LOC = "P7";
+NET "kCode[1]" LOC = "M11";
+NET "kCode[0]" LOC = "M5";
+//destination pins
+NET "des[3]" LOC = "G1";
+NET "des[2]" LOC = "P4";
+NET "des[1]" LOC = "N4";
+NET "des[0]" LOC = "N5";
+//floor 1
+NET "one" LOC = "A7";

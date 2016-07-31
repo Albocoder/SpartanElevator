@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="SpartanProject.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Queue.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Queue.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Queue.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="RAM.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RAM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RAM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RAM.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RAM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="RAM.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RAM.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="RAM.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="RAM.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="RAM.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="RAM.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RAM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RAM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="RAM.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="RAM.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="RAM.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="RAM.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RAM.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RAM_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="RAM_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RAM_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RAM_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RAM_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="RAM_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RAM_map.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="RAM_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="RAM_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RAM_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RAM_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="RAM_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="RAM_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RAM_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="comboModule.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comboModule.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comboModule.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comboModule.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comboModule.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="comboModule.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comboModule.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="comboModule.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="comboModule.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="comboModule.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comboModule.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="comboModule.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comboModule.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comboModule.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="comboModule.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="comboModule.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="comboModule.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="comboModule.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="comboModule.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comboModule.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comboModule_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="comboModule_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comboModule_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="comboModule_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="comboModule_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="comboModule_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comboModule_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comboModule_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="comboModule_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="comboModule_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comboModule_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comboModule_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="comboModule_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="comboModule_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comboModule_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="combomodule.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="combomodule.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="combomodule.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="driverModule.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="driverModule.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="driverModule.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="driverModuleCtrl.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="driverModuleCtrl.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="driverModuleCtrl.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="keyboardScanner.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="keyboardScanner.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="keyboardScanner.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447854882" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447854882">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453622" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6451175707737938417" xil_pn:start_ts="1448453622">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453587" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1883003104514624889" xil_pn:start_ts="1448453587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453587" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448453587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453587" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7409350678956147187" xil_pn:start_ts="1448453587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453587" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1448453587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448453587" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4060658444011846077" xil_pn:start_ts="1448453587">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647811" xil_pn:in_ck="-228506308495651370" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8190097204597583308" xil_pn:start_ts="1450647799">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="comboModule.lso"/>
+      <outfile xil_pn:name="comboModule.ngc"/>
+      <outfile xil_pn:name="comboModule.ngr"/>
+      <outfile xil_pn:name="comboModule.prj"/>
+      <outfile xil_pn:name="comboModule.stx"/>
+      <outfile xil_pn:name="comboModule.syr"/>
+      <outfile xil_pn:name="comboModule.xst"/>
+      <outfile xil_pn:name="comboModule_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1450642077" xil_pn:in_ck="183937418944299210" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5830267642273912520" xil_pn:start_ts="1450642077">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647818" xil_pn:in_ck="3293913432833713228" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6019418035262260508" xil_pn:start_ts="1450647811">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="comboModule.bld"/>
+      <outfile xil_pn:name="comboModule.ngd"/>
+      <outfile xil_pn:name="comboModule_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647822" xil_pn:in_ck="-2875980800969582354" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1450647818">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="comboModule.pcf"/>
+      <outfile xil_pn:name="comboModule_map.map"/>
+      <outfile xil_pn:name="comboModule_map.mrp"/>
+      <outfile xil_pn:name="comboModule_map.ncd"/>
+      <outfile xil_pn:name="comboModule_map.ngm"/>
+      <outfile xil_pn:name="comboModule_map.xrpt"/>
+      <outfile xil_pn:name="comboModule_summary.xml"/>
+      <outfile xil_pn:name="comboModule_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647834" xil_pn:in_ck="-3808533040160850752" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1450647822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="comboModule.ncd"/>
+      <outfile xil_pn:name="comboModule.pad"/>
+      <outfile xil_pn:name="comboModule.par"/>
+      <outfile xil_pn:name="comboModule.ptwx"/>
+      <outfile xil_pn:name="comboModule.unroutes"/>
+      <outfile xil_pn:name="comboModule.xpi"/>
+      <outfile xil_pn:name="comboModule_pad.csv"/>
+      <outfile xil_pn:name="comboModule_pad.txt"/>
+      <outfile xil_pn:name="comboModule_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647848" xil_pn:in_ck="6695242869620997660" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1450647834">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="comboModule.ut"/>
+      <outfile xil_pn:name="combomodule.bgn"/>
+      <outfile xil_pn:name="combomodule.bit"/>
+      <outfile xil_pn:name="combomodule.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1450647834" xil_pn:in_ck="-106681182154836634" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1450647831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="comboModule.twr"/>
+      <outfile xil_pn:name="comboModule.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

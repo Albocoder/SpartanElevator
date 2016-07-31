@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Personal/Xilinx Code/SpartanProject/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Personal/Xilinx Code/SpartanProject/xst"
+elaborate
+-ifn driverModule.prj
+-ifmt mixed
